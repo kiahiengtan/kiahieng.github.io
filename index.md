@@ -1,6 +1,6 @@
 # Welcome to My Portfolio
 
-Hello! I’m [Your Name], a strategy and innovation professional passionate about driving transformative projects.
+Hello! I’m Kia, a strategy and innovation professional passionate about driving transformative projects.
 
 ## Projects
 
