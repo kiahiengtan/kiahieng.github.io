@@ -1,0 +1,137 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #faf9f7;
+    color: #333;
+    line-height: 1.6;
+    padding-bottom: 40px;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.section-title h2 {
+    font-size: 28px;
+    color: #444;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px 40px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.hero .subtitle {
+    font-size: 18px;
+    color: #777;
+}
+
+.hero .tagline {
+    margin-top: 12px;
+    font-size: 18px;
+    color: #555;
+}
+
+/* HIGHLIGHTS */
+.highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    padding: 0 20px;
+    margin: 30px auto;
+    max-width: 900px;
+}
+
+.highlight-card {
+    background: #ffffff;
+    padding: 18px;
+    border-radius: 16px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    box-shadow: 0px 3px 10px rgba(180, 180, 180, 0.15);
+}
+
+/* FEATURED CARDS */
+.featured {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    padding: 0 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.featured-card {
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(160, 160, 160, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.featured-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(150, 150, 150, 0.25);
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.grid-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 500;
+    color: #444;
+    box-shadow: 0px 3px 10px rgba(180, 180, 180, 0.12);
+}
+
+/* ABOUT */
+.about {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px;
+    font-size: 17px;
+    color: #555;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact a {
+    margin: 0 10px;
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
