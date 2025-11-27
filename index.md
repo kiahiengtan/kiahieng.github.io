@@ -1,13 +1,10 @@
-# Welcome to My Portfolio
+---
+layout: default
+title: Kia Hieng Tan — Portfolio
+---
 
-Hello! I’m Kia, a strategy and innovation professional passionate about driving transformative projects.
+# Kia Hieng Tan
 
-## Projects
+Welcome to my portfolio site!
 
-- Project 1: Brief description  
-- Project 2: Brief description  
-
-## Contact
-
-- LinkedIn: [your-linkedin-url]  
-- Email: your.email@example.com
+This is a clean, minimal Jekyll theme hosted on GitHub Pages.
